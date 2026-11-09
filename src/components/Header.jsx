@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import ResumeButton from "./Resumebutton";
+// import ResumeButton from "./Resumebutton";
 const navLinks = [
   "About",
   "Skills",
@@ -50,7 +50,7 @@ const Header = () => {
               </motion.a>
             ))}
           </nav>
-          <ResumeButton/>
+          {/* <ResumeButton/> */}
         </>
         {/* 📱 Mobile Menu Button */}
         <div className="md:hidden text-gray-700 dark:text-gray-100 cursor-pointer z-50">
